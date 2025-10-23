@@ -4,13 +4,14 @@ from PIL import Image
 import customtkinter as ctk
 import tkinter as tk
 import os
+from pathlib import Path
 
 #path variables
-current_dir = os.getcwd()
+current_dir = Path(__file__).parent
 user_dir = os.path.expanduser("~")
 default_dir = os.path.join(user_dir, "Downloads\\flash games")
-image_path = os.path.join(current_dir, "data\\flipline_studio.png")
-text_path = os.path.join(current_dir, "data\\Webjeux_games_names.txt")
+image_path = current_dir / "data" / "flipline_studio.png"
+text_path = current_dir / "data" / "Webjeux_games_names.txt"
 
 ctk.set_appearance_mode("dark")
 img = Image.open(image_path)

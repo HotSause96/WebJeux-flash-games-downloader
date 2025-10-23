@@ -4,5 +4,5 @@ Huge thanks to www.webjeux.com for it's services.
 
 The script only works for Windows. Make sure you have python3 installed on your machine.                                                                                                   
 
-To install run this command on powershell or cmd: pip install webjeux-flash-downloader
+To install run this command on powershell or cmd: pip install webjeux-flash-downloader                                                                                                       
 To run type this command on powershell or cmd: webjeux-flash-downloader: 

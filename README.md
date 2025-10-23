@@ -7,6 +7,6 @@ The script only works for Windows. Make sure you have python3 installed on your 
 -To install run this command on powershell or cmd: pip install webjeux-flash-downloader                                                                                                     
 -To run type this command on powershell or cmd: webjeux-flash-downloader:
 
-The default downloading path is Downloads\flash games directory.
+The default downloading path is "Downloads\flash games" directory.
 
 You need a shockwave flash file player in order to open the downloaded games, here is Adobe flash player :                                                                                  https://drive.google.com/file/d/1bYwSLKz4pcWrpmJ_Hyf9YHuPYxvzFEDC/view?usp=sharing
